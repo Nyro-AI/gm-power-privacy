@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Política de Privacidad — GM Power</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <style>
+    :root { --navy:#2E3846; --accent:#3F5C7F; --muted:#6b7280; --border:#e2e5ea; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #1c1c1c; line-height: 1.6; margin: 0;
+      padding: 32px 20px 64px; max-width: 760px; margin-inline: auto;
+      background: #ffffff;
+    }
+    h1 { font-size: 1.9rem; color: var(--navy); border-bottom: 2px solid var(--navy); padding-bottom: 8px; }
+    h2 { font-size: 1.25rem; color: var(--navy); margin-top: 2rem; }
+    h3 { font-size: 1.05rem; margin-top: 1.3rem; }
+    p, li { text-align: left; }
+    a { color: var(--accent); }
+    blockquote {
+      background: #fbf4e9; border-left: 4px solid #c98a1a;
+      margin: 1rem 0; padding: 12px 16px; color: #6b4d12; border-radius: 4px;
+    }
+    blockquote p { margin: .3rem 0; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; display: block; overflow-x: auto; }
+    th { background: var(--navy); color: #fff; text-align: left; padding: 8px 10px; }
+    td { border-bottom: 1px solid var(--border); padding: 8px 10px; vertical-align: top; }
+    tbody tr:nth-child(even) { background: #f6f7f8; }
+    code { font-family: ui-monospace, monospace; background: #eef0f2; padding: 1px 4px; border-radius: 3px; font-size: .9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem; }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Política de Privacidad — GM Power</h1>
+</header>
+<h1 id="política-de-privacidad-gm-power">Política de Privacidad — GM
+Power</h1>
+<blockquote>
+<p><strong>BORRADOR PARA REVISIÓN LEGAL.</strong> Redactado a partir de
+las prácticas reales de la App (verificadas en el código, 2026-07). No
+publicar tal cual: requiere revisión de un abogado y completar los
+campos [CONFIRMAR].</p>
+</blockquote>
+<p><strong>Operador:</strong> Generators &amp; More (GLOBAL TRENDING
+INC) · <strong>App:</strong> GM Power · <strong>Última
+actualización:</strong> [FECHA] · <strong>Versión:</strong> 1.0</p>
+<hr />
+<h2 id="responsable-del-tratamiento">1. Responsable del tratamiento</h2>
+<p>El responsable del tratamiento de sus datos personales es:</p>
+<ul>
+<li><strong>Generators &amp; More (GLOBAL TRENDING INC)</strong> (“GM”,
+“nosotros”), Puerto Rico, EE. UU.</li>
+<li><strong>Teléfono:</strong> (787) 334-0052</li>
+<li><strong>Correo de privacidad/contacto:</strong> [CONFIRMAR]</li>
+<li><strong>Dirección:</strong> [CONFIRMAR]</li>
+</ul>
+<p>El desarrollo y la operación técnica de la App y su backend (“Nyro”)
+están a cargo de <strong>FT Innovations LLC</strong>
+(dev@ftinnovationspr.com), que actúa como <strong>encargado del
+tratamiento (procesador)</strong> por cuenta y bajo instrucciones de
+GM.</p>
+<p>Esta Política explica qué datos personales recopilamos a través de la
+App <strong>GM Power</strong>, con qué fines, sobre qué base legal, con
+quién los compartimos, cuánto tiempo los conservamos y qué derechos le
+asisten.</p>
+<h2 id="principios-y-alcance">2. Principios y alcance</h2>
+<p>La App es un <strong>cliente delgado</strong> que no aloja base de
+datos propia: presenta información obtenida del ERP de GM (Odoo) a
+través del backend. Diseñamos la App bajo el principio de
+<strong>minimización de datos</strong>: recopilamos únicamente lo
+necesario para autenticarle y mostrarle su propia información
+comercial.</p>
+<h2 id="qué-datos-recopilamos">3. Qué datos recopilamos</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Categoría de datos</th>
+<th>Detalle</th>
+<th>Origen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Datos de identificación y contacto</td>
+<td>Nombre, correo electrónico, teléfono</td>
+<td>Proporcionados por usted / registro comercial de GM</td>
+</tr>
+<tr>
+<td>Código de un solo uso (OTP)</td>
+<td>Código temporal para autenticación</td>
+<td>Generado por el sistema; enviado por SMS o correo</td>
+</tr>
+<tr>
+<td>Sesión (token)</td>
+<td>Token de sesión JWT (~30 días)</td>
+<td>Generado al iniciar sesión; almacenado cifrado en el
+dispositivo</td>
+</tr>
+<tr>
+<td>Relación comercial (<strong>solo lectura</strong>)</td>
+<td>Equipos, garantías, facturas (con IVU y saldos), órdenes de
+reparación</td>
+<td>ERP de GM (Odoo), mostrado a través del backend</td>
+</tr>
+<tr>
+<td>Cotizaciones</td>
+<td>Solicitudes de cotización que usted crea (<strong>única
+escritura</strong>)</td>
+<td>Generadas por usted en la App</td>
+</tr>
+<tr>
+<td>Caché local temporal</td>
+<td>Copia temporal de lecturas e imágenes para desempeño</td>
+<td>Dispositivo (almacenamiento local)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="datos-que-no-recopilamos">Datos que NO recopilamos</h3>
+<p>Para su tranquilidad, la App <strong>no recopila</strong>:</p>
+<ul>
+<li>Ubicación / GPS.</li>
+<li>Cámara, fotos, micrófono ni contactos.</li>
+<li>Datos de tarjetas de crédito, pagos o información financiera de pago
+(<strong>la App no cobra ni procesa pagos</strong>).</li>
+<li>Datos de salud ni categorías especiales.</li>
+<li>Datos de menores de edad (la App no está dirigida a menores de 18
+años).</li>
+</ul>
+<p>La App <strong>no</strong> utiliza analítica, SDK de reporte de
+fallos (crash reporting), publicidad, rastreo, identificadores
+publicitarios (IDFA/AAID) ni cookies de rastreo. La App <strong>no usa
+inteligencia artificial</strong> para procesar sus datos.</p>
+<h2 id="cómo-y-por-qué-usamos-sus-datos-finalidades-y-base-legal">4.
+Cómo y por qué usamos sus datos (finalidades y base legal)</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Finalidad</th>
+<th>Datos utilizados</th>
+<th>Base legal (RGPD, cuando aplique)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Autenticarle sin contraseña (envío y verificación de OTP)</td>
+<td>Teléfono o correo, OTP</td>
+<td>Ejecución de un contrato / medidas precontractuales (Art.
+6(1)(b))</td>
+</tr>
+<tr>
+<td>Mantener su sesión activa</td>
+<td>Token de sesión</td>
+<td>Ejecución de un contrato (Art. 6(1)(b))</td>
+</tr>
+<tr>
+<td>Mostrarle su información comercial (equipos, garantías, facturas,
+reparaciones)</td>
+<td>Identificación + datos comerciales</td>
+<td>Ejecución de un contrato / interés legítimo (Art. 6(1)(b)/(f))</td>
+</tr>
+<tr>
+<td>Gestionar sus solicitudes de cotización</td>
+<td>Identificación + datos de la cotización</td>
+<td>Medidas precontractuales / interés legítimo (Art. 6(1)(b)/(f))</td>
+</tr>
+<tr>
+<td>Garantizar la seguridad y prevenir abuso/fraude</td>
+<td>OTP, token, metadatos técnicos mínimos</td>
+<td>Interés legítimo (Art. 6(1)(f))</td>
+</tr>
+<tr>
+<td>Cumplir obligaciones legales y fiscales (retención de registros
+comerciales)</td>
+<td>Facturas y registros comerciales</td>
+<td>Obligación legal (Art. 6(1)(c))</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cómo-compartimos-sus-datos-encargados-y-subprocesadores">5. Cómo
+compartimos sus datos (encargados y subprocesadores)</h2>
+<p>No vendemos sus datos personales. Los compartimos únicamente con los
+proveedores necesarios para operar la App, que actúan como
+encargados/subprocesadores bajo contrato:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Subprocesador</th>
+<th>Función</th>
+<th>Ubicación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FT Innovations LLC / backend “Nyro” (alojado en Railway)</td>
+<td>Desarrollo y operación de la App y del backend</td>
+<td>EE. UU.</td>
+</tr>
+<tr>
+<td>Odoo (ERP de GM)</td>
+<td>Sistema de gestión donde reside la información comercial</td>
+<td>[CONFIRMAR]</td>
+</tr>
+<tr>
+<td>Twilio</td>
+<td>Envío de códigos OTP por SMS</td>
+<td>EE. UU.</td>
+</tr>
+<tr>
+<td>Resend</td>
+<td>Envío de códigos OTP por correo electrónico</td>
+<td>EE. UU.</td>
+</tr>
+</tbody>
+</table>
+<p>También podremos divulgar datos cuando lo exija la ley, una autoridad
+competente, o para proteger nuestros derechos, seguridad o los de
+terceros.</p>
+<h2 id="transferencias-internacionales">6. Transferencias
+internacionales</h2>
+<p>La App opera desde Puerto Rico y los EE. UU., y algunos
+subprocesadores procesan datos en los <strong>Estados Unidos</strong>.
+Si usted se encuentra fuera de los EE. UU. (por ejemplo, en el Espacio
+Económico Europeo), sus datos podrán transferirse a los EE. UU. Cuando
+la ley lo requiera, tales transferencias se ampararán en mecanismos de
+transferencia adecuados (por ejemplo, Cláusulas Contractuales Tipo).
+[CONFIRMAR mecanismo de transferencia con abogado].</p>
+<h2 id="conservación-de-datos">7. Conservación de datos</h2>
+<p>Conservamos los datos solo durante el tiempo necesario para las
+finalidades descritas:</p>
+<ul>
+<li><strong>Datos de cuenta:</strong> mientras la cuenta esté
+activa.</li>
+<li><strong>Código OTP:</strong> unos minutos (expira aproximadamente a
+los 10 minutos).</li>
+<li><strong>Token de sesión:</strong> aproximadamente 30 días.</li>
+<li><strong>Caché local:</strong> temporal, en su dispositivo; se
+elimina al desinstalar la App o limpiar el almacenamiento.</li>
+<li><strong>Registros comerciales (facturas, garantías,
+reparaciones):</strong> se conservan conforme a las obligaciones legales
+y fiscales aplicables, aproximadamente <strong>7 años</strong>
+[CONFIRMAR plazo fiscal exacto], incluso tras la eliminación de la
+cuenta (ver Sección 11).</li>
+</ul>
+<h2 id="sus-derechos-rgpd">8. Sus derechos (RGPD)</h2>
+<p>Si le resulta aplicable el Reglamento General de Protección de Datos
+(RGPD) de la UE/EEE, usted tiene derecho a:</p>
+<ul>
+<li><strong>Acceso</strong> a sus datos personales.</li>
+<li><strong>Rectificación</strong> de datos inexactos.</li>
+<li><strong>Supresión</strong> (“derecho al olvido”), con las
+limitaciones legales de conservación.</li>
+<li><strong>Limitación</strong> del tratamiento.</li>
+<li><strong>Portabilidad</strong> de sus datos.</li>
+<li><strong>Oposición</strong> al tratamiento basado en interés
+legítimo.</li>
+<li><strong>Retirar el consentimiento</strong> cuando el tratamiento se
+base en él, sin efectos retroactivos.</li>
+<li><strong>Presentar una reclamación</strong> ante la autoridad de
+protección de datos competente.</li>
+</ul>
+<p>Para ejercer estos derechos, contáctenos en [CONFIRMAR].
+Responderemos en los plazos legales aplicables.</p>
+<h2 id="sus-derechos-ccpacpra-california">9. Sus derechos (CCPA/CPRA —
+California)</h2>
+<p>Si usted es residente de California, la Ley de Privacidad del
+Consumidor de California (CCPA), según enmendada por la CPRA, le otorga
+los siguientes derechos:</p>
+<ul>
+<li><strong>Derecho a saber</strong> qué información personal
+recopilamos y cómo la usamos.</li>
+<li><strong>Derecho a acceder</strong> y <strong>a la
+portabilidad</strong> de su información personal.</li>
+<li><strong>Derecho a eliminar</strong> su información personal, sujeto
+a las excepciones legales de conservación.</li>
+<li><strong>Derecho a corregir</strong> información inexacta.</li>
+<li><strong>Derecho a la no discriminación</strong> por ejercer sus
+derechos de privacidad.</li>
+</ul>
+<p><strong>No vendemos ni compartimos su información personal</strong>
+para publicidad conductual, y <strong>no la divulgamos</strong> con
+fines de “venta” o “compartición” según definen la CCPA/CPRA. Para
+ejercer sus derechos, contáctenos en [CONFIRMAR].</p>
+<h2 id="seguridad">10. Seguridad</h2>
+<p>Aplicamos medidas técnicas y organizativas razonables para proteger
+sus datos, entre ellas:</p>
+<ul>
+<li>Cifrado en tránsito mediante <strong>TLS/HTTPS</strong>.</li>
+<li>Sesiones firmadas con <strong>JWT (HS256)</strong>; el token se
+guarda cifrado en el almacenamiento seguro del dispositivo
+(Keychain/Keystore).</li>
+<li>Códigos <strong>OTP</strong> de vigencia corta (expiran ~10
+minutos), con un máximo de <strong>5 intentos</strong> y un tiempo de
+espera (cooldown) de <strong>30 segundos</strong> entre envíos.</li>
+<li>Arranque <strong>fail-fast</strong>: el backend no opera si el
+secreto de firma no está debidamente configurado.</li>
+<li><strong>Aislamiento por cliente (anti-IDOR):</strong> el backend
+deriva su identidad del token de sesión (no de parámetros del cliente) y
+revalida cada recurso en cada solicitud, de modo que usted solo puede
+ver su propia información.</li>
+<li>El sistema <strong>no expone</strong> notas internas u otra
+información no destinada al cliente.</li>
+</ul>
+<p>Ninguna medida de seguridad es infalible; no podemos garantizar la
+seguridad absoluta de la información.</p>
+<h2 id="eliminación-de-cuenta">11. Eliminación de cuenta</h2>
+<p>La eliminación de cuenta <strong>ya está disponible dentro de la
+App</strong> (Perfil → “Eliminar mi cuenta”). Al eliminar su cuenta,
+<strong>se revoca su acceso</strong> y se eliminan los datos de sesión y
+la caché local del dispositivo. Por obligaciones legales y fiscales,
+<strong>conservamos las facturas, garantías y órdenes de
+reparación</strong> asociadas a su historial comercial. El detalle
+completo del proceso, lo que se elimina, lo que se conserva y cómo
+reactivar figura en la <a href="DATA_DELETION_POLICY.md">Política de
+Eliminación de Datos</a>.</p>
+<h2 id="menores-de-edad">12. Menores de edad</h2>
+<p>La App <strong>no está dirigida a menores de 18 años</strong> y no
+recopilamos a sabiendas datos de menores. Si tenemos conocimiento de que
+hemos recopilado datos de un menor, los eliminaremos. Si usted es
+padre/madre o tutor y cree que un menor nos ha proporcionado datos,
+contáctenos en [CONFIRMAR].</p>
+<h2 id="cookies-y-almacenamiento-local">13. Cookies y almacenamiento
+local</h2>
+<p>La App <strong>no utiliza cookies de rastreo</strong> ni tecnologías
+de seguimiento publicitario. En su dispositivo se guardan
+únicamente:</p>
+<ul>
+<li>El <strong>token de sesión</strong>, en el almacenamiento seguro
+(Keychain/Keystore).</li>
+<li>Una <strong>caché temporal</strong> de lecturas e imágenes para
+mejorar el desempeño (almacenamiento local del dispositivo).</li>
+</ul>
+<p>Estos datos permanecen en su dispositivo y se eliminan al cerrar
+sesión, eliminar la cuenta, desinstalar la App o limpiar su
+almacenamiento.</p>
+<h2 id="cambios-a-esta-política">14. Cambios a esta Política</h2>
+<p>Podremos actualizar esta Política de Privacidad. Publicaremos la
+versión revisada con una nueva fecha de “Última actualización” y, cuando
+corresponda, le informaremos por medios razonables. El uso continuado de
+la App tras la entrada en vigor de los cambios implica la aceptación de
+la Política actualizada.</p>
+<h2 id="contacto">15. Contacto</h2>
+<p>Para preguntas o solicitudes sobre privacidad:</p>
+<ul>
+<li><strong>Responsable:</strong> Generators &amp; More (GLOBAL TRENDING
+INC)</li>
+<li><strong>Teléfono:</strong> (787) 334-0052</li>
+<li><strong>Correo de privacidad:</strong> [CONFIRMAR]</li>
+<li><strong>Dirección:</strong> [CONFIRMAR]</li>
+<li><strong>Encargado técnico (procesador):</strong> FT Innovations LLC
+— dev@ftinnovationspr.com</li>
+</ul>
+</body>
+</html>
